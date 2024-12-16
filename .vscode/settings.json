@@ -1,0 +1,23 @@
+{
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordWrap": "on",
+    "editor.accessibilitySupport": "auto",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.autocompleteAddParentheses": true,
+    
+    // Disable inline suggestions (like "Accept Word")
+    "editor.inlineSuggest.enabled": false,
+    
+    // Disable GitHub Copilot inline suggestions (if Copilot is installed)
+    "github.copilot.inlineSuggest.enable": false,
+    
+    // Adjust IntelliSense behavior to avoid inline suggestions
+    "editor.suggest.showWords": false,
+    "editor.suggest.localityBonus": false
+}
