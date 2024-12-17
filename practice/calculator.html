@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <!-- simple calculate two digits -->
+     <form action="">
+          <fieldset>
+               <legend>Calclator</legend>
+               Enter First Digit: <input type="text" class="f_digit" id="n1"><br><br>
+               Enter Second Digit: <input type="text" class="s_digit" id="n2"><br> <br>
+               <input type="button" value="SUM" onclick="show(1)">
+               <input type="button" value="SUB" onclick="show(2)">
+               <input type="button" value="MUL" onclick="show(3)">
+               <input type="button" value="DIV" onclick="show(4)">
+               <br><br>
+               Result: <input type="text" id="n3">
+          </fieldset>
+     </form>
+     <script>
+
+          function show(d){
+               a= parseFloat(document.getElementById('n1').value);
+               b= parseFloat(document.getElementById('n2').value);
+               
+               if(d==1){
+                    document.getElementById('n3').value=a+b;
+               }
+               else if(d==2){
+                    document.getElementById('n3').value= a-b;
+               }
+
+               else if(d==3){
+                    document.getElementById('n3').value=a*b;
+               }
+
+               else if(d==4){
+                    document.getElementById('n3').value=a/b;
+               }
+          }
+     </script>
+
+     
+</body>
+</html>
